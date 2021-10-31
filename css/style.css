@@ -1,0 +1,283 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: rgb(180, 180, 180);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+.header .logo img{
+    width:20%;
+    border-radius: 50%;
+}
+.header .icon{
+    color:white;
+    padding: 3rem;
+    display: flex;
+}
+.header .icon .material-icons{
+    font-size: 3rem;
+}
+.header .icon .searchbar{
+    padding-right: 10px;
+    width:30vh;
+    border-radius: 20px;
+    border:none;
+}
+.header .logo h2{
+    padding:1rem 3rem;
+    color: white;
+    background: orange;
+    clip-path: polygon(0 0, 35% 33%, 49% 15%, 61% 33%, 100% 0, 79% 47%, 100% 100%, 65% 62%, 48% 78%, 34% 63%, 0 100%, 20% 50%);
+    border:none;
+}
+.header .logo span{
+    font-style: italic;
+    font-size: 2rem;
+    color:red
+}
+.header .navbar{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+.header .navbar a{
+    text-decoration: none;
+    padding:10px;
+    font-size: 2rem;
+    color:white;
+
+}
+.header .navbar .now{
+    text-decoration: underline;
+    background: yellow;
+    color:black;
+    font-weight: bold;
+}
+.header .navbar .navigate:hover{
+    cursor: pointer;
+    color:orange;
+}
+.header input::placeholder{
+    font-size: 1rem;
+    padding:10px;
+}
+.home{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+}
+.home .content{
+    text-align: center;
+}
+.home .content h3{
+    font-size: 3rem;
+    color:rgb(24, 11, 11);
+}
+.home .content span{
+    color:orange;
+    font-size: 5rem;
+}
+.home .content p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color:#c5cae9;
+    font-size: 2rem;
+}
+.bottom{
+    background: #c5cae9;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.bottom .info img{
+    width:10%;
+    border-radius: 50%;
+}
+.bottom .info p{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding: 10px;
+}
+.bottom .info p:hover{
+    cursor: pointer;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+}
+.btn-group button:hover{
+    cursor: pointer;
+    color:red;
+}
+.btn-group button{
+    padding: 20px;
+    border: none;
+    width:300px;
+    font-size: 30px;
+}
+.color{
+    background: teal;
+}
+.login{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width:30%;
+    padding: 10px;
+    background: rgb(44, 44, 44);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px ;
+}
+.form-group{
+    padding:15px;
+}
+.form-control{
+    padding:20px;
+    width:100%;
+    box-sizing: border-box;
+    background: rgb(44, 44, 44);
+    border:none;
+    border:1px solid gray
+}
+.btn{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:teal;
+    font-size: 3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.two-input{
+    display:flex;
+}
+.ml{
+    margin-left: 10px;
+}
+.sign-up{
+    text-align: center;
+    font-size: 3rem;
+    color: blanchedalmond;
+}
+.btn-orange{
+    padding:20px;
+    font-size: 3rem;
+}
+.form-control::placeholder{
+    font-size: 2rem;
+    text-align: center;
+}
+.login .form-container .form .payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login .form-container .form .payment .pay_icon{
+    width:20%;
+}
+.login .form-container .form .payment .pay_icon:hover{
+    cursor: pointer;
+}
+.login .form-container .form .payment p{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: white;
+}
+.login .form-container .form .payment .arrange{
+    border-radius: 20px;
+}
+.middle{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.middle .list{
+    padding:1rem;
+}
+.middle a{
+    text-decoration: none;
+    color:black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.machine,.window,.tire,.oil{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 2rem;
+}
+.card .box{
+    width:30%;
+    border:2px solid black;
+    background: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.card .box img{
+    widtH:100%;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.card .box .description{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card .box .description span{
+    color: white;
+    font-size: 2rem;
+}
+.card .box .button{
+    margin: 1rem ;
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    background: #26c6da;
+    width:30%;
+    margin-left: 35%;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card .box .button span{
+    font-size: 2rem;
+}
+.card .box .button:hover{
+    cursor: pointer;
+}
+.card .box .letter{
+    width: 40%;
+    margin-left: 30%;
+}
